@@ -11,19 +11,31 @@
 					<key>kind</key>
 					<string>software-package</string>
 					<key>url</key>
-                                        <string>https://cdn.rawgit.com/phamchi/test/master/test.ipa</string>
+					<string>https://cdn.rawgit.com/phamchi/test/master/kira.ipa</string>
+				</dict>
+				<dict>
+					<key>kind</key>
+					<string>display-image</string>
+					<key>url</key>
+					<string>https://cdn.rawgit.com/phamchi/test/master/57.png</string>
+				</dict>
+				<dict>
+					<key>kind</key>
+					<string>full-size-image</string>
+					<key>url</key>
+					<string>https://cdn.rawgit.com/phamchi/test/master/512.png</string>
 				</dict>
 			</array>
 			<key>metadata</key>
 			<dict>
 				<key>bundle-identifier</key>
-				<string>jp.co.schedulemanage</string>
+				<string>com.accjpn.Kirakira</string>
 				<key>bundle-version</key>
-                                <string>5</string>
+				<string>1.0.0</string>
 				<key>kind</key>
 				<string>software</string>
 				<key>title</key>
-				<string>shedulemanageapp</string>
+				<string>Kirakiralink</string>
 			</dict>
 		</dict>
 	</array>
