@@ -17,19 +17,13 @@
 					<key>kind</key>
 					<string>display-image</string>
 					<key>url</key>
-					<string>https://i.imgur.com/ar5ElJd.png</string>
+					<string>https://cdn.rawgit.com/phamchi/test/master/57.png</string>
 				</dict>
 				<dict>
 					<key>kind</key>
 					<string>full-size-image</string>
 					<key>url</key>
-					<string>https://i.imgur.com/ar5ElJd.png</string>
-				</dict>
-				<dict>
-					<key>kind</key>
-					<string>needs-shine</string>
-					<key>url</key>
-					<string>https://i.imgur.com/ar5ElJd.png</string>
+					<string>https://cdn.rawgit.com/phamchi/test/master/512.png</string>
 				</dict>
 			</array>
 			<key>metadata</key>
@@ -37,11 +31,11 @@
 				<key>bundle-identifier</key>
 				<string>com.ea.nfs2014.lf</string>
 				<key>bundle-version</key>
-				<string>0.33.1</string>
+				<string>2.8.5</string>
 				<key>kind</key>
-				<string>game</string>
+				<string>software</string>
 				<key>title</key>
-				<string>Need for Speed™ No Limits</string>
+				<string>Need For Speed No Limits iOSGods.com</string>
 			</dict>
 		</dict>
 	</array>
