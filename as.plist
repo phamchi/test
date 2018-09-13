@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>assets</key>
+			<array>
+				<dict>
+					<key>kind</key>
+					<string>software-package</string>
+					<key>url</key>
+					<string>https://archive.org/download/Asphalt9Legends/Asphalt%209_Legends%2B%2B.ipa</string>
+				</dict>
+				<dict>
+					<key>kind</key>
+					<string>display-image</string>
+					<key>needs-shine</key>
+					<true/>
+					<key>url</key>
+					<string>https://is4-ssl.mzstatic.com/image/thumb/Purple118/v4/e8/18/56/e81856b0-7c4b-6d7a-e18f-9d4e5a700180/AppIcon-1x_U007emarketing-85-220-7.png/460x0w.jpg</string>
+				</dict>
+			</array>
+			<key>metadata</key>
+			<dict>
+				<key>bundle-identifier</key>
+				<string>com.jp.as</string>
+				<key>bundle-version</key>
+				<string>1.0.1</string>
+				<key>kind</key>
+				<string>software</string>
+				<key>title</key>
+				<string>Asphalt 9</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>
