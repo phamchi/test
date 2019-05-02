@@ -1,0 +1,168 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<html>
+<head>
+
+<meta http-equiv="X-UA-Compatible"     content="IE=5">
+<meta http-equiv="Content-Type"        content="text/html; charset=UTF-8">
+<meta http-equiv="Content-Script-type" content="text/javascript">
+<meta http-equiv="Content-Style-Type"  content="text/css">
+
+<script>
+contextPath = "";
+if(contextPath == "/"){
+    contextPath = "";
+}
+hostName = location.host;
+protocolName = location.protocol;
+baseServiceNameAddress = protocolName + "//"+hostName+contextPath+"/services/address/";
+baseServiceNameRailway = protocolName + "//"+hostName+contextPath+"/services/railway/";
+</script>
+<title>&#12471;&#12473;&#12486;&#12512;&#12456;&#12521;&#12540;</title>
+<link rel="stylesheet" type="text/css" href="/css/style.css?ver=20190409105634">
+<link rel="stylesheet" type="text/css" href="/css/style_gray.css?ver=20190409105634">
+<script type="text/javascript" src="/js/common.js?ver=20190409105634"></script>
+<script type="text/javascript" src="/js/template.js?ver=20190409105634"></script>
+<script>
+function submitFormPage(targetPage){
+    document.getElementById("appForm:targetPage").value = targetPage;
+    document.getElementById("appForm:goTargetPage").click();
+}
+</script>
+</head>
+<body onload="disableHeader()">
+<form id="appForm" name="appForm" method="post" action="/error/SystemError.jsf" enctype="application/x-www-form-urlencoded"><input type="hidden" name="jsf_tree_64" id="jsf_tree_64" value="H4sIAAAAAAAAAK2Qz0oDMRDGx9paLIqoB6+CghfZfYC9Wam2VAT/geyhxGzcTckmMZlovXjz7gP4BNIn8Am8efUlvHo2y1ZbiqAHL0O+yXzz+5jhO9SsgT1l0oBoQjMW5LeXhDLrpRacEuRKBieGsWM0jqIz7IBIkjKzOW42Va6VZBJb52tvj52P1wpUY5jv0YyLxPg+dOKuR4QlIhwhwglE+FdE1IWlHv1STUGsRVjp9sk1CQWRaejnuUz92MJ4rJ1cwR1UYqj3CjJ6y2o84Tm86DOK0UA7M4r6H9eInodbL8v3D08VgIEGgBlbxABX1JrX1VJrhO0iyyAoWd+xgwxzEez74nfmRCY7DlH5c86i0npkLmoDYU6oVDmc6jaIw6yZKU7Z1M8iFYyYXW5Txy3zETZ+idBSJkeo+0MUL29Y/9lw2j7j7OZIKdT6Exd07oBfAgAA" /><input type="hidden" name="jsf_state_64" id="jsf_state_64" value="H4sIAAAAAAAAAK1UTWgkRRR+85eJMbpJBoNuELPkkI1Cj+iezMGdn4S0zCRDZhZFD72Vnsp0ZXu62urXMz0OWTSDIHjxoiCsiIJeVPCmiBdxwZPCrnjxOuBJPasXreqenpm4K+yy1uF19aP7fe/7vnr16W+Q8QXkXqockQ7RbOK0tL2DI2ri5ls/vPD+grdhJwECFwBS/stwFdRKj3dZN1qegIWwgI/M1ircJDa9+sfi5WtP/vlrCmZ0mLWIZ5m8SSuQNbnvoOghLIWgeQWar6NgTmuzAnM0QOp4jDueQslUYFZ94JMWHb3PeKZgLo7esh0iGHGi18D9Wy6E5HM1BJDPI6Lys2EIEOZ2GtWKUSzU9RLCcp4KwUW+3vOQtrfUXjvyQjK5CZmCEKRXYR4Gr9189N3vyHspSOiQ9tgrNJQl0U2rOJZkItPyRCaELHHdbS7aLkZKBdohMamnqZz6bFGiLk5Qd6RcVeJmsj9/8+3y5RspSG7DnM1Jc5uYyIUO96ElqGdxuxm4z14MUea7szIuqB4QnpoG6dIDCa9d0ku87XKHOtggLW17b7+6tW+UdvRK2dDL9Vs7qFP8qvz62+98+cWFlDoF3XkFMIJLI8zYvMV9RAnIJbE54qNVsjgzKcIDpk2JKDOv5TNPego1LloacYlpUa3dixoT1GlScYWhZmFbYsqgBNkP01QUiUe1Hb1c3to1SnvVamFXNrpbu9SoG/WtRng+lk/1lEB4aCT0M4bNnCuGxZpN6hgSf/6QC5PqTV3WDsZcwxNf5Fw263y/Kl796dpfvych8SJkOsT2pcWJwP2PFeIr9HR4BNK3OQIr411mchjU5hEp19K0RUUpI3cQ7o/bl4qGALlb3E2o9GMqnAvC0/rEdCEztlgzCohK7WYdCdLnhaxMRfmTXy4e/7h3PQlJOUmGaRPPQ1icmsSSSslBzBnd8Jfo9+hSOD2zo4sicDsC1m/jLrW1KkWLN4vMacrp1tuuDZMVuGNNkggra/0Gd2tyzIvSCs2UmC0uejWC1rEUW/o3HHwwHLw5HHw0HHwde4Cwyg7Pn/P8gzZDpdv5jY2+oOgLZ/WQ2B7dPD7lGcIZ5nSYxw5sGkkepu/GuoddFdcRHoytiqbgztxSm8dVyE+Tz631K7zFnJB6VC4ifWY4+Gx48vnw5MPhycfDwRsxD/Xv06eYqcyFuyZzNiazFJOZzPC9EDq71i+MC4WsmMNQ3gbu8b+b/j9orMQ0xtN/6va5Fybra/24zMSimEyJOCa1K/KiuWNaQfAPyAeTy3QHAAA=" /><input type="hidden" name="jsf_viewid" id="jsf_viewid" value="/error/SystemError.jsp" />
+    
+
+<span id="commonHeader">
+<table width="100%" align="center" cellspacing="0" cellpadding="1">
+<tr>
+    <td align="center">
+        <table width="100%" border="0" cellspacing="1" cellpadding="0">
+            <tr style="padding:10px 0px 0px 0px;">
+                <td align="left" valign="top" rowspan="2" height="40">
+                    <a href="https://realestate.yahoo.co.jp/" target="_blank"><img src="/image/realestate_r_34.gif" width="196" height="34" alt="Yahoo!&#19981;&#21205;&#29987;" border="0"></a>
+                </td>
+                <td align="right">
+                    
+                    &#12371;&#12435;&#12395;&#12385;&#12399;&#12289;<b>
+                        &#26481;&#20140;&#24613;&#34892;&#38651;&#37444;&#26666;&#24335;&#20250;&#31038;
+                        &#31649;&#29702;&#32773;
+                        &#21152;&#34276;&#20426;&#27835;</b>&#12373;&#12435;
+                        [ <a href="#" onclick="javascript:clickInvisibleButton('logout')">&#12525;&#12464;&#12450;&#12454;&#12488;</a> ]
+                        
+                        
+                    
+                </td>
+            </tr>
+            <tr>
+                <td align="right">
+                    
+                        
+                            <div style="color:green">
+                            <span style="display:inline-block;vertical-align:middle;"><img src="/image/icon/icn_attention.gif" width="19" height="19" alt="&#12450;&#12486;&#12531;&#12471;&#12519;&#12531;" border="0"></span>
+                        
+                        
+                        
+                        <span style="display:inline-block;vertical-align:middle;">&#29289;&#20214;&#20837;&#21147;&#20013;&#12395;&#24109;&#12434;&#22806;&#12377;&#22580;&#21512;&#12399;&#12289;&#30331;&#37682;&#12539;&#20445;&#23384;&#12434;&#34892;&#12387;&#12390;&#12367;&#12384;&#12373;&#12356;&#12290;</span></div>
+                    
+                </td>
+            </tr>
+        </table>
+        <table width="100%" border="0" cellspacing="1" cellpadding="0">
+            <tr>
+                <td align="right">
+                    
+                    
+                        <span style="display:inline-block;vertical-align:middle;"><img id="hTopButton" src="/image/button/btn_top.gif" width="80px" height="20px" class="refButton" alt="&#12488;&#12483;&#12503;&#12408;&#25147;&#12427;" onclick="clickInvisibleButtonForTop('top')" /></span>
+                        <script>if(invisibleTop){ document.getElementById("hTopButton").style.display = 'none';}</script>
+                    
+                </td>
+            </tr>
+        </table>
+    </td>
+</tr>
+</table></span>
+
+    <script>writeCategoryPath('&#12471;&#12473;&#12486;&#12512;&#12456;&#12521;&#12540;');</script>
+    <p>
+    <div align="center">
+        &#12471;&#12473;&#12486;&#12512;&#12456;&#12521;&#12540;&#12364;&#30330;&#29983;&#12375;&#12414;&#12375;&#12383;&#12290;
+        &#12372;&#36855;&#24785;&#12434;&#12362;&#12363;&#12369;&#12375;&#12414;&#12377;&#12364;&#12289;&#12471;&#12473;&#12486;&#12512;&#31649;&#29702;&#32773;&#12414;&#12391;&#12372;&#36899;&#32097;&#12367;&#12384;&#12373;&#12356;&#12290;
+    </div>
+
+
+
+
+<input id="appForm:top" name="appForm:top" type="submit" value="&#12513;&#12491;&#12517;&#12540;" onclick="if(!submitForm()){return false;};clear_appForm();" class="invisibleButton" />
+<input id="appForm:logout" name="appForm:logout" type="submit" value="&#12525;&#12464;&#12450;&#12454;&#12488;" onclick="if(!submitForm()){return false;};clear_appForm();" class="invisibleButton" />
+<input id="appForm:authChoice" name="appForm:authChoice" type="submit" onclick="if(!submitForm()){return false;};clear_appForm();" class="invisibleButton" />
+<input id="appForm:clearDisguise" name="appForm:clearDisguise" type="submit" onclick="if(!submitForm()){return false;};clear_appForm();" class="invisibleButton" />
+
+<input type="hidden" name="appForm_SUBMIT" value="1" /><input type="hidden" name="appForm:_link_hidden_" /><script type="text/javascript"><!--
+function clear_appForm() {
+  var f = document.forms['appForm'];
+  f.elements['appForm:_link_hidden_'].value='';
+  f.target='';
+}
+clear_appForm();
+//--></script></form>
+<div id="commonFooter">
+
+
+<table width="100%" align="center" cellspacing="0" cellpadding="3">
+    <tr>
+        <td align="right">
+            
+            
+                <img id="fTopButton" src="/image/button/btn_top.gif" width="80px" height="20px" class="refButton" alt="&#12488;&#12483;&#12503;&#12408;&#25147;&#12427;" onclick="clickInvisibleButtonForTop('top')" />
+                <script>if(invisibleTop){ document.getElementById("fTopButton").style.display = 'none';}</script>
+            
+        </td>
+    </tr>
+    <tr>
+        <td><hr width="100%" /></td>
+    </tr>
+    <tr>
+        <td align="center" class="footer">
+            Copyright (C) 2019 Yahoo Japan Corporation. All Rights Reserved.
+        </td>
+    </tr>
+</table>
+
+<script>
+if(document.forms[0].elements["invisibleBack"] != null 
+   && document.forms[0].elements["invisibleBack"].value == "1"){
+    if(document.getElementById("hBackButton")!=null){
+      document.getElementById("hBackButton").style.display = "none";
+    }
+    if(document.getElementById("fBackButton")!=null){
+      document.getElementById("fBackButton").style.display = "none";
+    }
+}
+if(document.forms[0].elements["invisibleTop"] != null
+   && document.forms[0].elements["invisibleTop"].value == "1"){
+     if(document.getElementById("hTopButton")!=null){
+       document.getElementById("hTopButton").style.display = "none";
+     }
+     if(document.getElementById("fTopButton")!=null){
+       document.getElementById("fTopButton").style.display = "none";
+     }
+}
+</script>
+</div>
+</body>
+</html>
+
