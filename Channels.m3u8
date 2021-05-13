@@ -11,3 +11,6 @@ http://a1.phobos.apple.com/us/r1000/000/Features/atv/AutumnResources/videos/plat
 
 #EXTINF:-1,Greenland
 http://a1.phobos.apple.com/us/r1000/000/Features/atv/AutumnResources/videos/comp_GL_G004_C010_v03_6Mbps.mov
+
+#EXTINF:-1,Big Buck Bunny
+https://multiplatform-f.akamaihd.net/i/multi/will/bunny/big_buck_bunny_,640x360_400,640x360_700,640x360_1000,950x540_1500,.f4v.csmil/master.m3u8
