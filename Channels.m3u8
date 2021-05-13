@@ -1,13 +1,13 @@
 #EXTM3U
 
-#EXTINF:-1, China
+#EXTINF:-1,China
 http://a1.phobos.apple.com/us/r1000/000/Features/atv/AutumnResources/videos/comp_C007_C004_0824AJ_001_v01_6M_HB_tag0.mov
 
-#EXTINF:-1, Liwa
+#EXTINF:-1,Liwa
 http://a1.phobos.apple.com/us/r1000/000/Features/atv/AutumnResources/videos/comp_LW_L001_C006_t9_6M_tag0.mov
 
-#EXTINF:-1, Greenland
+#EXTINF:-1,Greenland
 http://a1.phobos.apple.com/us/r1000/000/Features/atv/AutumnResources/videos/plate_G002_C002_BG_t9_6M_HB_tag0.mov
 
-#EXTINF:-1, Greenland
+#EXTINF:-1,Greenland
 http://a1.phobos.apple.com/us/r1000/000/Features/atv/AutumnResources/videos/comp_GL_G004_C010_v03_6Mbps.mov
